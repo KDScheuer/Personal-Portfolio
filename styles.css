@@ -12,6 +12,7 @@
 }
 
 .nav-bar {
+    position: fixed;
     display: flex;
     width: 100vw;
     height: 50px;
@@ -132,6 +133,7 @@ a {
     width: 100vw;
     height: 80vh;
     background: linear-gradient(var(--page-white), var(--page-blue));
+    border-top: 1px solid transparent;
 }
 
 .certs {
@@ -219,7 +221,7 @@ a {
 .projects {
     background-color: var(--page-white);
     width: 100vw;
-    padding: 10px 10px 40px 10px;
+    padding: 20px 10px 80px 10px;
 }
 
 .programming-projects {
