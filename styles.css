@@ -51,7 +51,8 @@
     justify-content: space-evenly;
     align-items: center;
     padding: 0 5vw 0 5vw ;
-    background: linear-gradient(90deg, var(--page-grey), var(--page-white));
+    background-image: url("./Background.jpg");
+    background-size: cover;
 }
 
 .info {
@@ -59,7 +60,7 @@
     height: 50%;
     width: 100%;
     max-width: 800px;
-    color: var(--page-blue);
+    color: var(--page-white);
 }
 
 .intro {
@@ -73,9 +74,9 @@
     margin-left: 2vw;
 }
 
-hr {
+.hero hr {
     margin: 2vh 0 2vh 0;
-    border: 2px solid black;
+    border: 2px solid var(--page-blue);
     width: 80%;
     max-width: 600px;
 }
@@ -110,7 +111,7 @@ hr {
 }
 
 .contact {
-    border: 3px solid black;
+    border: 3px solid var(--page-white);
     margin: 0 20px 0 auto;
     width: 300px;
     height: 75px;
@@ -119,4 +120,92 @@ hr {
     font-size: 2rem;
     font-weight: bold;
     border-radius: 37px;
+}
+
+#certs-lang {
+    width: 100vw;
+    height: 80vh;
+    background: linear-gradient(var(--page-white), var(--page-blue));
+}
+
+.certs {
+    width: 100%;
+    height: 350px;
+    text-align: center;
+    margin-top: 5vh;
+    font-size: 2.5rem;
+    color: var(--page-blue);
+}
+
+.certs hr {
+    border: 2px solid black;
+    width: 400px;
+    max-width: 70%;
+    margin: 2vh auto;
+}
+
+.cert-logos {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 250px;
+    margin-top: 5vh;
+}
+
+.lang {
+    width: 100%;
+    height: 350px;
+}
+
+.certs img {
+    height: 150px;
+    width: 150px;
+    border-radius: 20%;
+}
+
+.certs figcaption {
+    font-weight: bold;
+    color: var(--page-white);
+}
+
+.lang-logos img {
+    display: flex;
+    height: 100px;
+    width: 100px;
+    margin-top: 1vh;
+}
+
+.lang-logos {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.lang h1 {
+    font-size: 3rem;
+    color: var(--page-blue);
+    text-align: center;
+    margin-top: 1vh;
+}
+
+.lang hr {
+    border: 2px solid black;
+    width: 300px;
+    max-width: 70%;
+    margin: 2vh auto 4vh auto;
+}
+
+.lang-logos figcaption {
+    text-align: center;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.lang figure {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    padding: 3px 25px 0 25px;
+    background: #F9F9F9;
+    border: 1px solid black;
 }
