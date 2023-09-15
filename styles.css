@@ -273,7 +273,8 @@ a {
 .experience {
     display: flex;
     width: 100%;
-    background-color: var(--page-blue);
+    background-image: url("./Background.jpg");
+    background-size: cover;
     padding: 6vh 0 6vh 0;
     color: var(--page-white);
     justify-content: space-evenly;
@@ -288,7 +289,7 @@ a {
     width: 80%;
     max-width: 900px;
     margin: 2vh auto 2vh auto;
-    border: 2px solid var(--page-white);
+    border: 2px solid var(--page-blue);
 }
 
 .skills ul {
