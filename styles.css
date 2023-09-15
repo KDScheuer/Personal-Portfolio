@@ -6,6 +6,10 @@
     overflow-x: hidden;
 }
 
+html {
+    background-color: var(--page-white);
+}
+
 :root {
     --page-blue: #0876DB;
     --page-white: #F9F9F9;
@@ -33,6 +37,10 @@
     text-align: center;
     justify-content: center;
     border-left: 1px solid var(--page-white);
+}
+
+.nav-button:last-of-type {
+    border-right: 1px solid var(--page-white) ;
 }
 
 a {
@@ -302,7 +310,6 @@ a {
     background-color: var(--page-white);
     margin: 5vh 0 5vh 0;
     text-align: center;
-    border: 1px solid transparent;
 }
 
 .contact-me h2 {
@@ -328,8 +335,13 @@ a {
 }
 
 .icons img {
+    padding: 0;
     height: 100px;
     width: 100px;
+}
+
+.icons p {
+    color: black;
 }
 
 .icons figcaption {
