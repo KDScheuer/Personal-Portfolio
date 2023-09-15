@@ -35,6 +35,13 @@
 }
 
 a {
+    border: 1px solid red;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
     text-decoration: none;
     color: var(--page-white);
 }
