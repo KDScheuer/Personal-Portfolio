@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 :root {
@@ -71,7 +71,7 @@ a {
 
 .info {
     display: inline-block;
-    height: 50%;
+
     width: 100%;
     max-width: 800px;
     color: var(--page-white);
@@ -138,7 +138,6 @@ a {
 
 #certs-lang {
     width: 100vw;
-    height: 80vh;
     background: linear-gradient(var(--page-white), var(--page-blue));
     border-top: 1px solid transparent;
 }
@@ -335,4 +334,10 @@ a {
 
 .icons figcaption {
     font-size: 1.2rem;
+}
+
+footer {
+    height: 50px;
+    width: 100%;
+    background-color: var(--page-blue);
 }
