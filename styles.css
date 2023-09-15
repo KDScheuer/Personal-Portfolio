@@ -269,3 +269,29 @@ a {
     background-color: rgba(0, 0, 0, .2);
     cursor: pointer;
 }
+
+.experience {
+    display: flex;
+    width: 100%;
+    background-color: var(--page-blue);
+    padding: 6vh 0 6vh 0;
+    color: var(--page-white);
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.title{
+    font-size: 2rem;
+}
+
+.sysadmin hr, .cybersecurity hr {
+    width: 80%;
+    max-width: 900px;
+    margin: 2vh auto 2vh auto;
+    border: 2px solid var(--page-white);
+}
+
+.skills ul {
+    list-style: none;
+    font-size: 1.3rem;
+}
