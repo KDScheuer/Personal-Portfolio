@@ -215,3 +215,45 @@ a {
     background: #F9F9F9;
     border: 1px solid black;
 }
+
+.projects {
+    background-color: var(--page-white);
+    width: 100vw;
+    padding: 10px 10px 40px 10px;
+    border: 2px solid red;
+}
+
+.programming-projects {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.programming-projects img {
+    width: 400px;
+    height: 400px;
+}
+
+.projects h1 {
+    color: var(--page-blue);
+    font-size: 3rem;
+    margin-top: 5vh;
+    text-align: center;
+}
+
+.projects hr {
+    border: 2px solid black;
+    width: 500px;
+    max-width: 70%;
+    margin: 2vh auto 4vh auto;
+}
+
+.project h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.project p {
+    margin-top: 1vh;
+}
