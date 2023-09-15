@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
 :root {
@@ -30,6 +31,11 @@
     text-align: center;
     justify-content: center;
     border-left: 1px solid var(--page-white);
+}
+
+a {
+    text-decoration: none;
+    color: var(--page-white);
 }
 
 .nav-button:hover {
