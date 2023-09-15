@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
+    overflow: hidden;
 }
 
 :root {
@@ -295,4 +296,43 @@ a {
 .skills ul {
     list-style: none;
     font-size: 1.3rem;
+}
+
+.contact-me {
+    width: 100%;
+    background-color: var(--page-white);
+    margin: 5vh 0 5vh 0;
+    text-align: center;
+    border: 1px solid transparent;
+}
+
+.contact-me h2 {
+    font-size: 3rem;
+}
+
+.contact-me hr {
+    width: 40%;
+    max-width: 500px;
+    border: 2px solid var(--page-blue);
+    margin: 2vh auto 3vh auto;
+}
+
+.contact-me p {
+    font-size: 2rem;
+    margin-bottom: 1vh;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3vh;
+}
+
+.icons img {
+    height: 100px;
+    width: 100px;
+}
+
+.icons figcaption {
+    font-size: 1.2rem;
 }
